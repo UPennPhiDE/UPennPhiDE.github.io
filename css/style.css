@@ -12,7 +12,7 @@ letter-spacing : 1px;
 body h1, h2, h3, h4, h5, h6 {
 color : #141414;
 font-family : "Lato", sans-serif;
-font-size : 18px;
+font-size : 24px;
 text-transform : capitalize;
 font-weight : 800;
 text-transform : uppercase;
@@ -183,7 +183,8 @@ margin : 0;
 .lft_hd img {
 float : left;
 margin-right : 30px;
-margin-top : 19px;
+margin-top : 10px;
+margin-bottom : 10px;
 width : 76px;
 }
 #pricing_sec {
@@ -345,11 +346,12 @@ vertical-align : middle;
 width : 100%;
 }
 #slider_sec {
-background-image : url("../img/slider.jpg");
+background-image : url("../img/fullclass.jpg");
 background-position : center center;
 background-repeat : no-repeat;
-background-size : 100% 100%;
-height : 650px;
+background-size : 1002px 100%;
+background-color : black;
+height : 668px;
 width : 100%;
 }
 .left_crousel_btn, .right_crousel_btn {
@@ -402,29 +404,28 @@ width : 25px;
 height : 7px;
 background-color : #00AFF0;
 }
-#counting_sec {
+#pships_sec {
 background : none 0 0 repeat scroll #f0f0f0;
 padding : 90px 0;
 }
-.counting_sl h2 {
-color : #515050;
-font-size : 48px;
-}
-.counting_sl h4 {
-font-size : 18px;
-color : #515050;
+
+#pships_sec  h1{
+color : #141414;
+font-family : "Lato", sans-serif;
+font-size : 24px;
+text-transform : capitalize;
+font-weight : 800;
 text-transform : uppercase;
-font-weight : 300;
-}
-.counting_sl {
 text-align : center;
 }
-.counting_sl i {
+.pships_pic img {
 color : #515050;
 float : left;
 font-size : 35px;
 margin-top : 10px;
+background-size : 10% 10%;
 }
+
 #pr_sec {
 padding : 70px 0;
 }
