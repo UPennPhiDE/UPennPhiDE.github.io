@@ -456,7 +456,7 @@ font-weight : normal;
 .caption_carousel h1 {
 font-family : lato;
 font-size : 60px;
-text-transform : capitalize;
+text-transform : none;
 color : #90C;
 }
 .caption_carousel p {
