@@ -9,14 +9,55 @@ font-family : "Lato", sans-serif;
 font-size : 14px;
 letter-spacing : 1px;
 }
-body h1, h2, h3, h4, h5, h6 {
+
+.currentmembers {
+color : #666666;
+font-family : "Lato", sans-serif;
+font-size : 14px;
+letter-spacing : 1px;
+column-count : 3;
+-webkit-column-count: 3; /* Chrome, Safari, Opera */
+-moz-column-count: 3; /*Firefox*/
+}
+
+body h1, h2, h3, h4, h5 {
 color : #141414;
 font-family : "Lato", sans-serif;
-font-size : 24px;
+font-size : 32px;
 text-transform : capitalize;
 font-weight : 800;
 text-transform : uppercase;
 }
+
+body h6 {
+color : #141414;
+font-family : "Lato", sans-serif;
+font-size : 26px;
+text-transform : capitalize;
+font-weight : 800;
+text-transform : uppercase;
+text-decoration : underline;
+}
+
+body h7 {
+color : #141414;
+text-align : center;
+font-family : "Lato", sans-serif;
+font-size : 16px;
+text-transform : capitalize;
+font-weight : 800;
+text-transform : uppercase;
+}
+
+body h8 {
+color : #333333;
+text-align : center;
+font-family : "Lato", sans-serif;
+font-size : 24px;
+font-weight : 800;
+}
+
+
 a:hover {
 text-decoration : none;
 }
@@ -202,6 +243,10 @@ text-transform : uppercase;
 letter-spacing : 1px;
 }
 .abt {
+margin : 0 auto;
+text-align : center;
+}
+.exec {
 margin : 0 auto;
 text-align : center;
 }
