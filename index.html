@@ -21,7 +21,7 @@
         <link rel="stylesheet" href="css/style.css">
 
     </head>
-<body >
+<body onload = "myFunction()">
 		 <!-- start preloader -->
          <div id="loader-wrapper">
             <div class="logo"></div>
@@ -32,6 +32,19 @@
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+		
+		<script>
+		var myVar;
+
+		function myFunction() {
+			myVar = setTimeout(showPage, 3000);
+		}
+
+		function showPage() {
+		  document.getElementById("loader").style.display = "none";
+		  document.getElementById("loader-wrapper").style.display = "none";
+		}
+		</script>
 		
 		
 <!-- Start Header Section -->
