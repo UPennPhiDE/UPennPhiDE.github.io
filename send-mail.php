@@ -6,5 +6,5 @@ $recipient = "eric.s.chen.98@gmail.com";
 $subject = "Contact Form";
 $mailheader = "From: $email \r\n";
 @mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
-header('Location: nextpage.php');
+header('Location: contact.html');
 ?>
