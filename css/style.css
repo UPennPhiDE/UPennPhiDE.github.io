@@ -267,10 +267,8 @@ margin : 0;
 }
 .lft_hd img {
 float : left;
-margin-right : 30px;
-margin-top : 10px;
-margin-bottom : 10px;
-width : 76px;
+margin-left : 0;
+width : 10%;
 }
 #pricing_sec {
 padding : 70px 0;
