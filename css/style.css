@@ -205,10 +205,10 @@ position : relative;
 }
 #nav_menu ul li a:hover {
 transition : all 0.4s 0s ease;
-background : #0078BF;
+background : #663399;
 }
 #nav_menu ul ul {
-background : none 0 0 repeat scroll #0078bf;
+background : none 0 0 repeat scroll #663399;
 display : none;
 left : 0;
 padding : 0;
